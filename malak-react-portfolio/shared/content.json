@@ -1,0 +1,342 @@
+{
+  "profile": {
+    "name": "Malak Elgwaely",
+    "firstName": "Malak",
+    "brand": "malak",
+    "role": "Backend Developer · Machine Learning & AI",
+    "location": "Alexandria, Egypt",
+    "available": true,
+    "portrait": "/malak-portfolio/images/malak-portrait.jpg",
+    "portraitHover": "/malak-portfolio/images/malak-portrait-digital.jpg",
+    "intro": "Computer Science student at Alexandria University, interested in backend development, machine learning, and the practical side of building software. I like figuring out why something works — then making it work better.",
+    "about": "I’m Malak, a Computer Science student at Alexandria University. I’m drawn to the parts of technology that need both patience and problem-solving: understanding a system, breaking a big problem into smaller ones, and building a solution that someone can actually use.",
+    "aboutMore": "My learning hasn’t happened only behind a laptop. Between technical programs, university projects, volunteering, and community events, I’ve learned that I enjoy taking responsibility, working with different people, and being useful where I can. I’m currently exploring backend development and machine learning, while keeping room for the things that challenge me outside code.",
+    "email": "malakelgwaelyy@gmail.com",
+    "github": "https://github.com/malakelgwaelyy",
+    "instagram": "",
+    "linkedin": "https://www.linkedin.com/in/malak-elgwaely-5483b1276"
+  },
+  "pages": {
+    "heroGreeting": "Hi, I’m",
+    "heroLineOne": "Backend",
+    "heroLineTwo": "Developer.",
+    "heroEyebrow": "BACKEND DEVELOPMENT · MACHINE LEARNING · CURIOSITY",
+    "aboutTitle": "More than just code.",
+    "aboutHeadline": "A curious mind.\nA builder at heart.",
+    "educationTitle": "The journey so far.",
+    "educationDescription": "My formal studies, plus the programs I chose to learn beyond the classroom.",
+    "frameworksTitle": "My everyday toolkit.",
+    "frameworksDescription": "Languages and tools I use to explore ideas, build systems, and work with data.",
+    "skillsTitle": "Good ideas.\nBuilt with purpose.",
+    "projectsTitle": "Things I’ve worked on.",
+    "projectsDescription": "A mix of coursework and self-driven builds. Some started with a problem to solve; others started with a question I wanted to explore.",
+    "contactTitle": "Have an idea?\nLet’s make it real.",
+    "contactDescription": "If you’re working on something thoughtful — a product, a community project, or a technical challenge — I’m happy to talk.",
+    "footerNote": "Curious by nature. Building with intention.",
+    "signatureText": "Elgwaely",
+    "signatureImage": ""
+  },
+  "card": {
+    "heading": "COMPUTER SCIENCE",
+    "roleText": "BACKEND · ML & AI",
+    "mark": "✳",
+    "titleLineOne": "BACKEND",
+    "titleLineTwo": "DEVELOPER",
+    "editionLabel": "CLASS OF",
+    "editionYear": "2029",
+    "portrait": "/malak-portfolio/images/malak-portrait.jpg",
+    "portraitHover": "/malak-portfolio/images/malak-portrait-digital.jpg",
+    "photoCaption": "ALWAYS LEARNING. ALWAYS BUILDING.",
+    "displayName": "Malak Elgwaely",
+    "identifier": "01 / EGY",
+    "footerLineOne": "BUILD WITH PURPOSE.",
+    "footerLineTwo": "LEARN WITHOUT LIMITS.",
+    "strapText": "BACKEND · MACHINE LEARNING · AI",
+    "brandText": "MALAK",
+    "logoImage": "",
+    "signatureText": "Elgwaely",
+    "signatureImage": "",
+    "accentColor": "#6c9df5",
+    "paperColor": "#e6e5d9",
+    "dragHint": "Drag the ID card and let it swing.",
+    "keyboardHint": "Use arrow keys to move. Home to reset.",
+    "resetLabel": "Reset ID card position"
+  },
+  "copy": {
+    "navHome": "Home",
+    "navAbout": "About",
+    "navProjects": "Projects",
+    "navContact": "Contact",
+    "heroExplore": "Explore my work",
+    "heroContact": "Let’s talk",
+    "findMe": "FIND ME ON",
+    "scrollLabel": "SCROLL TO EXPLORE",
+    "heroLocationLabel": "BASED IN",
+    "aboutEyebrow": "THE PERSON BEHIND THE PROJECTS",
+    "aboutSmallGreeting": "A little about me",
+    "aboutMeet": "Nice to meet you",
+    "aboutLearning": "Still learning. Still asking why.",
+    "aboutToolkit": "A look at my toolkit",
+    "educationEyebrow": "EDUCATION & GROWTH",
+    "skillsEyebrow": "WHAT I BRING TO THE TABLE",
+    "skillsDescription": "I’m strongest when I can combine structured thinking with hands-on building.",
+    "frameworksEyebrow": "THE TOOLS BEHIND THE WORK",
+    "projectsEyebrow": "A FEW THINGS I’VE BUILT",
+    "filterAll": "All projects",
+    "filterWeb": "Web Development",
+    "filterDesign": "Data & AI",
+    "projectsFootnote": "Good work starts with a good conversation.",
+    "projectsConversation": "Let’s start one",
+    "contactEyebrow": "LET’S BUILD SOMETHING USEFUL",
+    "contactAvailable": "Open to internships and collaborations",
+    "contactBusy": "Currently focused on ongoing projects",
+    "contactFormIntro": "Tell me a little about your idea.",
+    "contactName": "Your name",
+    "contactNamePlaceholder": "How should I call you?",
+    "contactEmail": "Email address",
+    "contactEmailPlaceholder": "hello@example.com",
+    "contactMessage": "Your message",
+    "contactMessagePlaceholder": "Tell me about your idea or project...",
+    "contactPrivacy": "Your email app will open to send the message.",
+    "contactSubmit": "Send via email",
+    "contactSending": "Preparing...",
+    "contactSuccessEyebrow": "IT STARTS WITH A HELLO",
+    "contactSuccessTitle": "Your email is ready.",
+    "contactSuccessBody": "Your email app should open with the message prepared.",
+    "contactAnother": "Write another message",
+    "footerSignoff": "ALWAYS CURIOUS.\nALWAYS BUILDING.",
+    "footerCredit": "Designed & built with intention.",
+    "footerAdmin": "Download CV",
+    "loadingCaption": "A LITTLE PATIENCE. GOOD THINGS ARE COMING.",
+    "projectBack": "Back to selected work",
+    "projectConcept": "Project overview",
+    "projectIdea": "THE IDEA",
+    "projectIdeaTitle": "Thoughtfully imagined.\nCarefully brought to life.",
+    "projectApproach": "The approach",
+    "projectUpNext": "UP NEXT",
+    "galleryLabel": "Take a closer look",
+    "projectView": "VIEW PROJECT",
+    "projectEmpty": "No projects in this category yet.",
+    "projectDiscipline": "THE DISCIPLINE",
+    "projectToolkit": "THE TOOLKIT",
+    "projectYear": "THE YEAR",
+    "projectVisit": "Visit project",
+    "navCommunity": "Community",
+    "communityEyebrow": "BEYOND THE SCREEN",
+    "communityTitle": "Where I show up.",
+    "communityIntro": "A few places where I’ve spent time contributing, learning to work with people, and taking part in something bigger than my own to-do list."
+  },
+  "education": [
+    {
+      "id": "university",
+      "school": "Alexandria University",
+      "degree": "B.Sc. studies · Computer Science / Data Science track",
+      "period": "2025 — Present",
+      "location": "Alexandria, Egypt",
+      "description": "Building foundations in programming, data structures, databases, mathematics, and data science.",
+      "logo": ""
+    },
+    {
+      "id": "omnicampus",
+      "school": "OmniCampus",
+      "degree": "Data Science Program",
+      "period": "2025",
+      "location": "Online",
+      "description": "A structured learning experience that helped me explore data science concepts and practical ways to work with data.",
+      "logo": ""
+    }
+  ],
+  "frameworks": [
+    {
+      "id": "python",
+      "name": "Python",
+      "category": "PROGRAMMING",
+      "description": "My go-to language for scripting, data workflows, and machine learning experiments.",
+      "symbol": "python",
+      "logo": ""
+    },
+    {
+      "id": "java",
+      "name": "Java",
+      "category": "PROGRAMMING",
+      "description": "Object-oriented programming, problem solving, and building structured applications.",
+      "symbol": "java",
+      "logo": ""
+    },
+    {
+      "id": "sql",
+      "name": "SQL",
+      "category": "DATABASES",
+      "description": "Working with relational data, queries, constraints, and database design.",
+      "symbol": "database",
+      "logo": ""
+    },
+    {
+      "id": "cpp",
+      "name": "C / C++",
+      "category": "PROGRAMMING",
+      "description": "Strengthening core programming concepts, algorithms, and data structures.",
+      "symbol": "code",
+      "logo": ""
+    },
+    {
+      "id": "r",
+      "name": "R",
+      "category": "DATA ANALYSIS",
+      "description": "Exploring statistical analysis and data visualization workflows.",
+      "symbol": "r",
+      "logo": ""
+    },
+    {
+      "id": "flask",
+      "name": "Flask & REST APIs",
+      "category": "BACKEND",
+      "description": "Building lightweight backend services and connecting applications through APIs.",
+      "symbol": "flask",
+      "logo": ""
+    },
+    {
+      "id": "git",
+      "name": "Git & GitHub",
+      "category": "TOOLS",
+      "description": "Version control, collaboration, and keeping projects organized.",
+      "symbol": "github",
+      "logo": ""
+    },
+    {
+      "id": "ml",
+      "name": "Machine Learning",
+      "category": "AI & DATA",
+      "description": "Learning model development, feature preparation, and practical predictive workflows.",
+      "symbol": "brain",
+      "logo": ""
+    }
+  ],
+  "skills": [
+    {
+      "id": "backend",
+      "title": "Backend Development",
+      "description": "Building the logic behind applications: APIs, data handling, authentication basics, and database integration.",
+      "tools": [
+        "Python",
+        "Flask",
+        "REST APIs",
+        "SQL",
+        "MySQL",
+        "Firebase"
+      ]
+    },
+    {
+      "id": "machine-learning",
+      "title": "Machine Learning & Data",
+      "description": "Preparing data, exploring patterns, and developing practical predictive models with a focus on understanding the full workflow.",
+      "tools": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "R",
+        "Decision Trees",
+        "Data Analysis"
+      ]
+    },
+    {
+      "id": "problem-solving",
+      "title": "Problem Solving & CS Foundations",
+      "description": "Strengthening the fundamentals that make software reliable, efficient, and easier to reason about.",
+      "tools": [
+        "C / C++",
+        "Java",
+        "OOP",
+        "Data Structures",
+        "Algorithms",
+        "Codeforces"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "lifeos",
+      "slug": "lifeos-productivity-system",
+      "title": "LifeOS",
+      "category": "Web Development",
+      "year": "2026",
+      "summary": "A personal operating system for goals, projects, tasks, notes, and daily workflows.",
+      "description": "A shareable productivity dashboard designed to bring different areas of life into one organized workspace. Built with a focus on clear workflows, responsive UI, and persistent personal data.",
+      "challenge": "Designing a flexible system that keeps goals, tasks, projects, and daily actions connected without overwhelming the user.",
+      "image": "/malak-portfolio/images/projects/lifeos.jpg",
+      "gallery": [],
+      "tools": [
+        "JavaScript",
+        "Firebase",
+        "Cloud Firestore",
+        "HTML",
+        "CSS"
+      ],
+      "url": "https://github.com/malakelgwaelyy/lifeOS",
+      "featured": true
+    },
+    {
+      "id": "protein-max",
+      "slug": "protein-max-gallery",
+      "title": "Protein Max Gallery",
+      "category": "Web Development",
+      "year": "2026",
+      "summary": "A product-focused gallery website built around a clean and responsive browsing experience.",
+      "description": "A web experience presenting Protein Max products with a visual-first layout and responsive interactions.",
+      "challenge": "Keeping the product presentation clear and consistent across screen sizes while making the browsing experience simple.",
+      "image": "/malak-portfolio/images/projects/protein-max.jpg",
+      "gallery": [],
+      "tools": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "url": "https://malakelgwaelyy.github.io/protein-max-gallery/",
+      "featured": true
+    },
+    {
+      "id": "delivery-delay",
+      "slug": "delivery-delay-prediction",
+      "title": "Delivery Delay Prediction",
+      "category": "Data & AI",
+      "year": "2025",
+      "summary": "A data analysis and decision-tree workflow using 10,000+ delivery records.",
+      "description": "A project exploring delivery performance through data cleaning, preprocessing, factor analysis, and a conceptual decision-tree prediction workflow.",
+      "challenge": "Turning raw delivery records into a structured dataset and identifying factors that may influence delivery delays.",
+      "image": "/malak-portfolio/images/projects/delivery-delay.png",
+      "gallery": [],
+      "tools": [
+        "Excel",
+        "R",
+        "Decision Trees",
+        "Data Analysis"
+      ],
+      "url": "",
+      "featured": true
+    },
+    {
+      "id": "portfolio",
+      "slug": "personal-portfolio",
+      "title": "Personal Portfolio",
+      "category": "Web Development",
+      "year": "2026",
+      "summary": "A personal website bringing together selected projects, technical interests, and ways to connect.",
+      "description": "A responsive portfolio designed to present my work and learning journey through a distinctive visual identity and interactive details.",
+      "challenge": "Balancing an expressive visual direction with clarity, accessibility, and a smooth experience across devices.",
+      "image": "/malak-portfolio/images/projects/portfolio.jpg",
+      "gallery": [],
+      "tools": [
+        "React",
+        "TypeScript",
+        "GSAP",
+        "CSS"
+      ],
+      "url": "https://github.com/malakelgwaelyy/malak-portfolio",
+      "featured": false
+    }
+  ],
+  "settings": {
+    "languageMode": false,
+    "language": "en"
+  }
+}

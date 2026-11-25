@@ -1,0 +1,25 @@
+/* Rendering performance only. No visual, motion, or behavior changes. */
+.project-cursor,
+.page-transition,
+.lanyard-parallax {
+  will-change: transform;
+  backface-visibility: hidden;
+}
+.hero-line > span {
+  backface-visibility: hidden;
+}
+.project-image {
+  contain: paint;
+}
+.site-header,
+.page-transition-shell {
+  contain: layout;
+}
+@media (max-width: 760px) {
+  .desktop-nav,
+  .project-card,
+  .lang-popover {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+}
