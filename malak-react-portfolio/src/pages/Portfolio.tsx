@@ -229,7 +229,7 @@ function CertificatesSection() {
       issuer: 'Bibliotheca Alexandrina · Society for Science',
       year: '2024',
       category: 'COMPETITION',
-      image: '/malak-portfolio/images/certificates/BASEF.png',
+      image: '/malak-portfolio-react/images/certificates/BASEF.png',
       description: 'Certificate of appreciation for participating as a contestant in the 2024 fair.',
     },
     {
@@ -237,7 +237,7 @@ function CertificatesSection() {
       issuer: 'Amazon · Coursera',
       year: '2026',
       category: 'SOFTWARE DEVELOPMENT',
-      image: '/malak-portfolio/images/certificates/amazon-coursera.png',
+      image: '/malak-portfolio-react/images/certificates/amazon-coursera.png',
       description: 'An introductory course exploring the foundations of software development.',
     },
     {
@@ -245,7 +245,7 @@ function CertificatesSection() {
       issuer: 'Mahara-Tech · ITI',
       year: '2026',
       category: 'PROGRAMMING',
-      image: '/malak-portfolio/images/certificates/screenshot.png',
+      image: '/malak-portfolio-react/images/certificates/screenshot.png',
       description: 'Completed the Python Programming Basics course through the AI Academy.',
     },
     {
@@ -253,7 +253,7 @@ function CertificatesSection() {
       issuer: 'Cisco Networking Academy · Skills Plus Egypt',
       year: '2026',
       category: 'CYBERSECURITY',
-      image: '/malak-portfolio/images/certificates/cyber_cisco.png',
+      image: '/malak-portfolio-react/images/certificates/cyber_cisco.png',
       description: 'An introduction to core cybersecurity concepts and awareness.',
     },
   ];

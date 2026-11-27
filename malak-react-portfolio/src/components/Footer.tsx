@@ -78,7 +78,7 @@ export default function Footer({ content, navigate }: { content: Content; naviga
           </span>
           <span>{content.copy.footerCredit}</span>
           <a
-            href="/malak-portfolio/Malak_Elgwaely_CV.pdf" target="_blank" rel="noopener noreferrer"
+            href="/malak-portfolio-react/Malak_Elgwaely_CV.pdf" target="_blank" rel="noopener noreferrer"
           >
             {content.copy.footerAdmin} <ArrowUpRight size={11} />
           </a>
