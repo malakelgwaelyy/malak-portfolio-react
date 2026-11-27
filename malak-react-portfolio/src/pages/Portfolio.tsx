@@ -2,6 +2,7 @@ import { useEffect, useRef, useState, type FormEvent, type PointerEvent } from '
 import {
   ArrowDown,
   ArrowDownRight,
+  Award,
   ArrowRight,
   ArrowUpRight,
   Braces,
@@ -214,6 +215,99 @@ function CommunitySection({ content }: { content: Content }) {
               </div>
               <p>{entry.detail}</p>
             </article>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function CertificatesSection() {
+  const certificates = [
+    {
+      title: 'Alexandria Library Science & Engineering Fair',
+      issuer: 'Bibliotheca Alexandrina · Society for Science',
+      year: '2024',
+      category: 'COMPETITION',
+      image: '/malak-portfolio/images/certificates/BASEF.png',
+      description: 'Certificate of appreciation for participating as a contestant in the 2024 fair.',
+    },
+    {
+      title: 'Introduction to Software Development',
+      issuer: 'Amazon · Coursera',
+      year: '2026',
+      category: 'SOFTWARE DEVELOPMENT',
+      image: '/malak-portfolio/images/certificates/amazon-coursera.png',
+      description: 'An introductory course exploring the foundations of software development.',
+    },
+    {
+      title: 'Python Programming Basics',
+      issuer: 'Mahara-Tech · ITI',
+      year: '2026',
+      category: 'PROGRAMMING',
+      image: '/malak-portfolio/images/certificates/screenshot.png',
+      description: 'Completed the Python Programming Basics course through the AI Academy.',
+    },
+    {
+      title: 'Introduction to Cybersecurity',
+      issuer: 'Cisco Networking Academy · Skills Plus Egypt',
+      year: '2026',
+      category: 'CYBERSECURITY',
+      image: '/malak-portfolio/images/certificates/cyber_cisco.png',
+      description: 'An introduction to core cybersecurity concepts and awareness.',
+    },
+  ];
+  return (
+    <section className="certificates-section section" id="certificates">
+      <div className="container">
+        <div className="certificates-heading" data-reveal>
+          <div>
+            <span className="eyebrow"><span className="section-index">05 /</span> LEARNING, DOCUMENTED</span>
+            <h2>Certificates &<br /> milestones.</h2>
+          </div>
+          <p>A few milestones from courses, programs, and experiences that have shaped the way I learn and build.</p>
+        </div>
+        <div className="certificates-grid">
+          {certificates.map((certificate, index) => (
+            <a
+              className="certificate-card"
+              href={certificate.image}
+              target="_blank"
+              rel="noreferrer"
+              key={certificate.title}
+              data-reveal
+              aria-label={`View certificate: ${certificate.title}`}
+              onPointerMove={(event) => {
+                if (reducedMotion() || event.pointerType !== 'mouse') return;
+                const bounds = event.currentTarget.getBoundingClientRect();
+                const x = (event.clientX - bounds.left) / bounds.width;
+                const y = (event.clientY - bounds.top) / bounds.height;
+                event.currentTarget.style.setProperty('--pointer-x', `${x * 100}%`);
+                event.currentTarget.style.setProperty('--pointer-y', `${y * 100}%`);
+                event.currentTarget.style.setProperty('--tilt-x', `${(0.5 - y) * 5}deg`);
+                event.currentTarget.style.setProperty('--tilt-y', `${(x - 0.5) * 7}deg`);
+              }}
+              onPointerLeave={(event) => {
+                event.currentTarget.style.setProperty('--tilt-x', '0deg');
+                event.currentTarget.style.setProperty('--tilt-y', '0deg');
+                event.currentTarget.style.setProperty('--pointer-x', '50%');
+                event.currentTarget.style.setProperty('--pointer-y', '50%');
+              }}
+              style={{ animationDelay: `${index * 110}ms` }}
+            >
+              <span className="certificate-number">0{index + 1} / 0{certificates.length}</span>
+              <div className="certificate-preview">
+                <img src={certificate.image} alt={`${certificate.title} certificate`} loading="lazy" />
+                <span className="certificate-scan" aria-hidden="true" />
+                <span className="certificate-view"><Award size={17} /> VIEW CERTIFICATE <ArrowUpRight size={15} /></span>
+              </div>
+              <div className="certificate-info">
+                <div className="certificate-meta"><span>{certificate.category}</span><span>{certificate.year}</span></div>
+                <h3>{certificate.title}</h3>
+                <span className="certificate-issuer">{certificate.issuer}</span>
+                <p>{certificate.description}</p>
+              </div>
+            </a>
           ))}
         </div>
       </div>
@@ -585,6 +679,7 @@ export default function Portfolio({
         <CommunitySection content={content} />
         <Services content={content} />
         <FrameworksSection content={content} />
+        <CertificatesSection />
         <Projects content={content} navigate={navigate} />
         <Contact content={content} />
       </main>

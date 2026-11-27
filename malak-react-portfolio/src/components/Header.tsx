@@ -10,6 +10,7 @@ const links = [
   { id: 'about', label: 'About' },
   { id: 'community', label: 'Community' },
   { id: 'projects', label: 'Projects' },
+  { id: 'certificates', label: 'Certificates' },
   { id: 'contact', label: 'Contact' },
 ];
 

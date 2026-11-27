@@ -707,6 +707,8 @@ export default function Admin({
     featured: false,
   };
   const pageLabels: Record<keyof PageContent, string> = {
+    signatureImage: 'Signature Image',
+    signatureText: 'Signature Text',
     heroGreeting: 'Hero: sapaan',
     heroLineOne: 'Hero: baris pertama',
     heroLineTwo: 'Hero: baris kedua',
@@ -723,8 +725,6 @@ export default function Admin({
     contactTitle: 'Contact: judul (baris baru didukung)',
     contactDescription: 'Contact: deskripsi',
     footerNote: 'Footer: catatan pendek',
-    signatureText: 'Signature: text',
-    signatureImage: 'Signature: image',
   };
   return (
     <div className="admin-app">
